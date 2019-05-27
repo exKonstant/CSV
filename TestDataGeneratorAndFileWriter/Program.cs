@@ -13,9 +13,9 @@ namespace TestDataGeneratorAndFileWriter
         }
         static async Task Main(string[] args)
         {
-            string path = @"C:\Users\Atem\Desktop\testfinal2.csv";
+            string path = @"D:\test.csv";
             
-            for (int i = 0; i < 40; i++)
+            for (int i = 0; i < 4000; i++)
             {
                 Console.WriteLine("Start generating data!");
                 var strings = await EmployeeGenerator.GenerateStringsAsync(10000);

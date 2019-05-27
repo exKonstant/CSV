@@ -16,7 +16,7 @@ namespace TestReaderAndDbWriter
         }
         static async Task Main(string[] args)
         {
-            string path = @"C:\Users\Atem\Desktop\testfinal1.csv";
+            string path = @"D:\test.csv";
             string conStr = "Server=KOMAR;Database=EmployeeDB;Trusted_Connection=True;";
 
             var csvReader = new CsvReader(path);
